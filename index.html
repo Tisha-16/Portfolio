@@ -128,64 +128,140 @@
 
     <!-- Skill  -->
     <section id="skills" class="py-24 bg-black">
-      <div class="max-w-7xl mx-auto px-6">
-        <h2 class="text-2xl font-semibold text-gray-300 mb-8">Tech Stack</h2>
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-2xl font-semibold text-gray-300 mb-12">Tech Stack</h2>
 
-        <div class="flex flex-wrap gap-4">
+        <!-- Div container -->
+        <div class="grid grid-cols-4 md:grid-cols-4 gap-4 justify-items-center">
           <!-- HTML -->
           <div
-            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-xl">🌐</span>
+            <span class="text-3xl mb-2">🌐</span>
             <span class="text-gray-200 font-medium">HTML</span>
           </div>
 
           <!-- CSS -->
           <div
-            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-xl">🎨</span>
+            <span class="text-3xl mb-2">🎨</span>
             <span class="text-gray-200 font-medium">CSS</span>
           </div>
 
           <!-- JavaScript -->
           <div
-            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-xl">⚡</span>
+            <span class="text-3xl mb-2">⚡</span>
             <span class="text-gray-200 font-medium">JavaScript</span>
           </div>
 
           <!-- React -->
           <div
-            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-xl">⚛️</span>
+            <span class="text-3xl mb-2">⚛️</span>
             <span class="text-gray-200 font-medium">React</span>
           </div>
 
           <!-- Node.js -->
           <div
-            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-xl">🟢</span>
+            <span class="text-3xl mb-2">🟢</span>
             <span class="text-gray-200 font-medium">Node.js</span>
           </div>
 
-          <!-- Php -->
+          <!-- PHP -->
           <div
-            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-xl">▲</span>
+            <span class="text-3xl mb-2">▲</span>
             <span class="text-gray-200 font-medium">PHP</span>
           </div>
 
-          <!-- MongoDB  -->
+          <!-- MongoDB -->
           <div
-            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-xl">🍃</span>
+            <span class="text-3xl mb-2">🍃</span>
             <span class="text-gray-200 font-medium">MongoDB</span>
+          </div>
+
+          <!-- Git/GitHub  -->
+          <div
+            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+          >
+            <span class="text-3xl mb-2">🔧</span>
+            <span class="text-gray-200 font-medium">Git/GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me  -->
+    <section id="about" class="py-24 bg-black text-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- Section Title -->
+        <div class="text-center mb-16">
+          <p class="text-green-400 text-sm tracking-widest uppercase">
+            About Me
+          </p>
+          <h2 class="text-5xl mt-2">
+            Know More <span class="text-green-400">About Me</span>
+          </h2>
+          <div class="w-16 h-1 bg-green-400 mx-auto mt-4"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="grid md:grid-cols-2 gap-14 items-center">
+          <!-- Left Image -->
+          <div class="flex justify-center md:justify-start">
+            <div
+              class="rounded-3xl overflow-hidden border border-white/10 max-w-md bg-white/5"
+            >
+              <img
+                src="./images/tisha.jpg"
+                alt="About Me"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          <!-- Right Text -->
+          <div>
+            <h3 class="text-4xl font-semibold mb-4">
+              I'm a Junior<span class="text-green-400"> Web Developer</span>
+            </h3>
+
+            <p class="text-gray-400 leading-relaxed mb-4">
+              I am a passionate junior web developer who enjoys building clean,
+              responsive, and user-friendly websites. I have a strong interest
+              in modern web technologies and love turning ideas into functional
+              digital experiences.
+            </p>
+
+            <p class="text-gray-400 leading-relaxed mb-4">
+              I mainly work with HTML, CSS, JavaScript, and beginner-level
+              React. I focus on writing simple, readable code and continuously
+              improving my skills through practice, small projects, and learning
+              from real-world examples.
+            </p>
+
+            <p class="text-gray-400 leading-relaxed mb-8">
+              As a learner, I am always curious about new tools and best
+              practices. I enjoy exploring UI design principles, improving
+              performance, and building projects that help me grow as a
+              developer.
+            </p>
+
+            <a
+              href="#"
+              class="inline-flex items-center gap-2 bg-green-400 text-black px-6 py-3 rounded-xl font-medium hover:scale-105 transition"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>
