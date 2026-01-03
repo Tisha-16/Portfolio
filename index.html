@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
 
   <body class="bg-black text-white">
@@ -126,75 +127,50 @@
       </div>
     </section>
 
-    <!-- Skill  -->
-    <section id="skills" class="py-24 bg-black">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <h2 class="text-2xl font-semibold text-gray-300 mb-12">Tech Stack</h2>
+    <!-- Tech stack  -->
+    <section class="py-24 bg-black">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-2xl font-semibold text-gray-300 mb-8">Tech Stack</h2>
 
-        <!-- Div container -->
-        <div class="grid grid-cols-4 md:grid-cols-4 gap-4 justify-items-center">
+        <div class="flex flex-wrap gap-4">
           <!-- HTML -->
           <div
-            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-3xl mb-2">🌐</span>
+            <span class="text-xl">🌐</span>
             <span class="text-gray-200 font-medium">HTML</span>
           </div>
 
           <!-- CSS -->
           <div
-            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-3xl mb-2">🎨</span>
+            <span class="text-xl">🎨</span>
             <span class="text-gray-200 font-medium">CSS</span>
           </div>
 
           <!-- JavaScript -->
           <div
-            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-3xl mb-2">⚡</span>
+            <span class="text-xl">⚡</span>
             <span class="text-gray-200 font-medium">JavaScript</span>
           </div>
 
           <!-- React -->
           <div
-            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-3xl mb-2">⚛️</span>
+            <span class="text-xl">⚛️</span>
             <span class="text-gray-200 font-medium">React</span>
           </div>
 
           <!-- Node.js -->
           <div
-            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
+            class="flex items-center gap-3 px-6 py-4 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
           >
-            <span class="text-3xl mb-2">🟢</span>
+            <span class="text-xl">🟢</span>
             <span class="text-gray-200 font-medium">Node.js</span>
-          </div>
-
-          <!-- PHP -->
-          <div
-            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
-          >
-            <span class="text-3xl mb-2">▲</span>
-            <span class="text-gray-200 font-medium">PHP</span>
-          </div>
-
-          <!-- MongoDB -->
-          <div
-            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
-          >
-            <span class="text-3xl mb-2">🍃</span>
-            <span class="text-gray-200 font-medium">MongoDB</span>
-          </div>
-
-          <!-- Git/GitHub  -->
-          <div
-            class="flex flex-col items-center justify-center w-32 h-32 rounded-2xl bg-white/5 border border-white/10 hover:border-green-400 transition"
-          >
-            <span class="text-3xl mb-2">🔧</span>
-            <span class="text-gray-200 font-medium">Git/GitHub</span>
           </div>
         </div>
       </div>
@@ -262,6 +238,205 @@
             >
               Download CV
             </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects  -->
+    <section id="projects" class="py-24 bg-black">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- Heading -->
+        <div class="text-center mb-14">
+          <p class="text-green-400 text-sm tracking-widest mb-2">PORTFOLIO</p>
+          <h2 class="text-5xl text-white">
+            My Recent <span class="text-green-400">Projects</span>
+          </h2>
+          <div class="w-16 h-1 bg-green-400 mx-auto mt-4"></div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex justify-center gap-4 mb-14">
+          <button
+            class="px-5 py-2 rounded-lg bg-green-400 text-black font-medium"
+          >
+            All
+          </button>
+          <button
+            class="px-5 py-2 rounded-lg bg-white/5 border border-white/10 text-gray-300 hover:border-green-400 transition"
+          >
+            Web
+          </button>
+          <button
+            class="px-5 py-2 rounded-lg bg-white/5 border border-white/10 text-gray-300 hover:border-green-400 transition"
+          >
+            Mobile
+          </button>
+          <button
+            class="px-5 py-2 rounded-lg bg-white/5 border border-white/10 text-gray-300 hover:border-green-400 transition"
+          >
+            Design
+          </button>
+        </div>
+
+        <!-- Project Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- CARD 1 -->
+          <div
+            class="rounded-3xl bg-white/5 border border-white/10 overflow-hidden flex flex-col"
+          >
+            <img src="./images/eco-web.png" class="w-full h-60 object-cover" />
+            <div class="p-6 flex flex-col h-full">
+              <h3 class="text-lg font-semibold text-white mb-2">
+                Modern E-commerce Website
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A full-featured ecommerce solution with secure payments and
+                admin dashboard.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-5">
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">MongoDB</span>
+              </div>
+              <button
+                class="mt-auto w-full py-2 rounded-lg border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition"
+              >
+                View Case Study
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div
+            class="rounded-3xl bg-white/5 border border-white/10 overflow-hidden flex flex-col"
+          >
+            <img
+              src="./images/portfolio.png"
+              class="w-full h-60 object-cover"
+            />
+            <div class="p-6 flex flex-col h-full">
+              <h3 class="text-lg font-semibold text-white mb-2">
+                Portfolio Website
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A modern personal portfolio website built to showcase projects,
+                skills, and contact information with a clean UI and smooth user
+                experience.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-5">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">Tailwind</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+              <button
+                class="mt-auto w-full py-2 rounded-lg border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition"
+              >
+                View Case Study
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div
+            class="rounded-3xl bg-white/5 border border-white/10 overflow-hidden flex flex-col"
+          >
+            <img src="./images/mobile.png" class="w-full h-60 object-cover" />
+            <div class="p-6 flex flex-col h-full">
+              <h3 class="text-lg font-semibold text-white mb-2">
+                Payoo Mobile App
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Mobile payment app UI with smooth UX.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-5">
+                <span class="tech-pill">Tailwind</span>
+                <span class="tech-pill">DaisyUI</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+              <button
+                class="mt-auto w-full py-2 rounded-lg border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition"
+              >
+                View Case Study
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div
+            class="rounded-3xl bg-white/5 border border-white/10 overflow-hidden flex flex-col"
+          >
+            <img src="./images/aquamate.jpg" class="w-full h-60 object-cover" />
+            <div class="p-6 flex flex-col h-full">
+              <h3 class="text-lg font-semibold text-white mb-2">Aqua Mate</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Aqua Mate is an IoT-powered smart water monitoring system
+                designed to help fish farmers track water quality in real time
+                using a web dashboard.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-5">
+                <span class="tech-pill">ESP32</span>
+                <span class="tech-pill">IoT</span>
+                <span class="tech-pill">Sensors</span>
+                <span class="tech-pill">Dashboard</span>
+              </div>
+              <button
+                class="mt-auto w-full py-2 rounded-lg border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition"
+              >
+                View Case Study
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 5 -->
+          <div
+            class="rounded-3xl bg-white/5 border border-white/10 overflow-hidden flex flex-col"
+          >
+            <img src="./images/blood.png" class="w-full h-60 object-cover" />
+            <div class="p-6 flex flex-col h-full">
+              <h3 class="text-lg font-semibold text-white mb-2">
+                Blood Bucket
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A web-based blood donation platform designed to connect donors
+                and patients quickly during emergencies.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-5">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">PHP</span>
+                <span class="tech-pill">MySQL</span>
+              </div>
+              <button
+                class="mt-auto w-full py-2 rounded-lg border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition"
+              >
+                View Case Study
+              </button>
+            </div>
+          </div>
+
+          <!-- CARD 6 -->
+          <div
+            class="rounded-3xl bg-white/5 border border-white/10 overflow-hidden flex flex-col"
+          >
+            <img src="./images/tea.png" class="w-full h-60 object-cover" />
+            <div class="p-6 flex flex-col h-full">
+              <h3 class="text-lg font-semibold text-white mb-2">Tea House</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                A modern tea brand landing page showcasing products, quality,
+                and customer satisfaction with a clean UI.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-5">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">Tailwind</span>
+                <span class="tech-pill">UI/UX</span>
+              </div>
+              <button
+                class="mt-auto w-full py-2 rounded-lg border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition"
+              >
+                View Case Study
+              </button>
+            </div>
           </div>
         </div>
       </div>
